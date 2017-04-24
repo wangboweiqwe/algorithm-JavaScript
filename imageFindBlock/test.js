@@ -57,7 +57,7 @@ getPixels("./test.png", function(err, pixels) {         //获取每个小的图�
   }
   let count = 0,result = []; //结果
   const wid = pixels.shape[0];    //图像宽度
-  let colorR = pixels.data        //图像数据转为0,1
+  let colorR = pixels.data        //图像像素信息转为0,1
     .filter((ele,ind) => (ind % 4 === 0))
     .map((ele) => (ele === 255?0:1));
   getBlock(colorR);
