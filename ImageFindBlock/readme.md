@@ -1,6 +1,9 @@
 # 将一张图片里的小块找出并找到每个小块的像素数
 ## 运行方法
-### cd 当前目录，node test.js
+<pre><code>cd 当前目录
+npm install get-pixels
+node test.js
+</code><pre>
 ## get-pixels
 将图像输出为可处理数据
 <pre><code>
