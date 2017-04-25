@@ -8,7 +8,7 @@
 <pre><code>cd 当前目录
 npm install get-pixels
 node test.js
-</code><pre>
+</code></pre>
 ## get-pixels
 将图像输出为可处理数据
 <pre><code>
@@ -21,6 +21,5 @@ getPixels("./test.png", function(err, pixels) {}
 `pixels.date`是一维数组，一个像素点的图像信息占数组的4个元素分别代表`RGBA`。所以数组`length`为4*像素数。
 `pixels.shape`元素1表示图像宽度，`pixels.height`代表图像高度。
 所以`pixels.date.length === 4*pixels[0]*pixels[2]`。
-
 ## 已知bug
 当图案有多个上凸起和下凸起时，只能找到最左边的主干图案和下一个上凸起，不能找到其他凸起。
