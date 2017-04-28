@@ -1,7 +1,6 @@
 let getPixels = require("get-pixels");
-let path = require('path');  //  文件操作
 
-getPixels(path.join(__dirname,"test.png"), function(err, pixels) {         //获取每个小的图块
+getPixels(__dirname+"/test.png", function(err, pixels) {      //获取每个小的图块
   function getBlock(arr){
     if(arr.indexOf(1) === -1){
       return result;

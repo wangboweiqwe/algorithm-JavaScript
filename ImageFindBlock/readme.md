@@ -5,7 +5,7 @@
 * `nextLine()`由图案的第一行找到图案的下一行，反复运行找到该完整图案
 * `preLine()`找到图案的上凸起部分
 ## 运行方法
-<pre><code>cd 当前目录
+<pre><code>
 npm install get-pixels
 node test.js
 </code></pre>
