@@ -1,4 +1,5 @@
 # 将一张图片里的小块找出并找到每个小块的像素数
+![image](https://raw.githubusercontent.com/wangboweiqwe/algorithm-JavaScript/master/ImageFindBlock/test.png)
 ## 思路
 * 将像素信息（`arr`）转化为需要的有效信息，转化后的`arr`中0代表白色像素点，1代表非白色的像素点
 * `getBlock()`获取第一个非白色像素点，使用`nextLine()`找到包含这个像素点的图案的像素数量，将这个图案的像素信息设为0，反复运用该函数，得到结果
