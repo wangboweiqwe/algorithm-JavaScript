@@ -43,8 +43,8 @@ console.log('arrLength',arr.length);
 function findNum(arr,num){    //找到积包含多少个1，2，3……
   arr = arr.map( (ele) => {
     if(ele === num)
-    return 1;
-    else return 0;
+      return 1;
+    return 0;
   });
   return arr.reduce(function(accu,curr){
     return accu+curr;
